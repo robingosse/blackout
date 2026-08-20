@@ -1,0 +1,22 @@
+{
+  "framework": "GHOST",
+  "target_version": "260819",
+  "claim": "implementation-targeted",
+  "certified": false,
+  "verified": false,
+  "controls": [
+    {"id": "BO-PREV-001", "status": "implemented", "evidence": "client/enforcement/*"},
+    {"id": "BO-PREV-002", "status": "implemented", "evidence": "client/gossie_blackout.py"},
+    {"id": "BO-AUTH-001", "status": "implemented", "evidence": "relay/app.py"},
+    {"id": "BO-AUTH-002", "status": "implemented", "evidence": "relay/app.py"},
+    {"id": "BO-LA-001", "status": "implemented", "evidence": "relay/app.py"},
+    {"id": "BO-TOKEN-001", "status": "implemented", "evidence": "relay/store.py"},
+    {"id": "BO-TOKEN-002", "status": "implemented", "evidence": "relay/store.py"},
+    {"id": "BO-FAIL-001", "status": "implemented", "evidence": "client/gossie_blackout.py"},
+    {"id": "BO-FAIL-002", "status": "implemented", "evidence": "client/gossie_blackout.py"},
+    {"id": "BO-REC-001", "status": "implemented", "evidence": "client/gossie_blackout.py"},
+    {"id": "BO-AUD-001", "status": "implemented", "evidence": "relay/store.py"},
+    {"id": "BO-PLAT-001", "status": "partial", "evidence": "client/enforcement/*"},
+    {"id": "BO-CHANGE-001", "status": "implemented", "evidence": "relay/store.py"}
+  ]
+}
